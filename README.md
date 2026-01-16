@@ -47,6 +47,27 @@ Claude 執行 Skill 後會觀察結果（例如指令是否噴錯），如果失
 
 ---
 
+## 專案技能清單 (Project Skills)
+
+本專案目前收錄並維護以下幾項專用技能，旨在增強 AI 助理在開發與筆記協作中的表現：
+
+### 1. [Code Reviewer](./code-reviewer/README.md)
+*   **角色場景**：專業的程式碼審核專家。
+*   **核心功能**：針對程式碼的變更範疇（Scope）、風格（Style）、安全性（Security）與測試覆蓋率（Tests）提供建設性回饋。
+*   **使用方式**：當請求中使用「feedback」、「review」或「check」等關鍵字時觸發。
+
+### 2. [Reviewer (極致嚴苛版)](./reviewer/README.md)
+*   **角色場景**：極度挑剔、冷酷且嚴厲的資深審查員。
+*   **核心功能**：以極高標準進行全方位的代碼審計（Audit），不容忍任何平庸代碼。
+*   **使用方式**：輸入專屬指令 `/review` 或在請求中表達需要嚴格審核時觸發。
+
+### 3. [Obsidian Markdown](./obsidian-markdown/README.md)
+*   **角色場景**：Obsidian 語法專家。
+*   **核心功能**：支援 Obsidian 特色的雙向連結（Wikilinks）、提示框（Callouts）、內容嵌入（Embeds）與 Properties 屬性管理。
+*   **使用方式**：在處理 `.md` 檔案或處理 Obsidian 特有功能時自動調用。
+
+---
+
 ## 安裝目錄
 ```bash
 C:\Users\chiis\.opencode\
