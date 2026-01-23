@@ -76,6 +76,11 @@ Claude 執行 Skill 後會觀察結果（例如指令是否噴錯），如果失
 *   **核心功能**：建立與編輯 `.canvas` 檔案，支援節點（文字、檔案、連結、群組）管理與連線邏輯。
 *   **使用方式**：處理 `.canvas` 檔案、製作心智圖、流程圖或需要視覺化呈現資訊時自動調用。
 
+### 6. [Bubblewrap Troubleshooter](./bubblewrap_troubleshooter/README.md)
+*   **角色場景**：Bubblewrap 建置障礙排除專家。
+*   **核心功能**：針對 Android 封裝工具執行 `bubblewrap build` 時常見的 JVM 記憶體不足與 JDK 路徑錯誤提供診斷與標準修復流程。
+*   **使用方式**：當執行 Bubblewrap 建置失敗，出現 Heap Space 或 JAVA_HOME 錯誤時參考使用。
+
 ---
 
 ## 安裝目錄
