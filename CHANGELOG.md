@@ -7,6 +7,9 @@ The format is based on [Keep a Changelog](https://keepachangelog.com/en/1.0.0/).
 ## [Unreleased]
 
 ### Added
+- Skill: 新增 `doc-refiner` 技能，自動化整理與標準化 Obsidian 文件。
+- Skill: 新增 `semantic-git` 技能，協助生成符合規範的繁體中文 Git Commit 訊息。
+- Skill: 新增 `log-sentinel` 技能，快速檢索與過濾 Docker 服務日誌中的錯誤。
 - Workflow: 新增 `skills` 工作流，允許通過 `/skills` 查詢專案中的技能。
 - Docs: 在 README 中新增 `Bubblewrap Troubleshooter` 技能說明。
 - Skill: 新增 `os-detector` 技能，用於自動判斷作業系統環境。
